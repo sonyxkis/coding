@@ -29,7 +29,7 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 st.dataframe(fruits_to_show)
 
 st.header("Fruityvice Fruit Advice!")
-st.text(fruityvice_response.json())
+#st.text(fruityvice_response.json())
 #st.text(fruityvice_response)
 
 # write your own comment -what does the next line do? 
