@@ -9,4 +9,4 @@ st.write('🥗 Omega 3 & Blueberry Oatmeal')
 st.text('🐔 Kale, Spanich & Rocket Smoothie')
 st.text('🥑🍞 Hard-Boiled Free-Range Egg')
    
-streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
+st.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
