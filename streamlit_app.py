@@ -47,8 +47,8 @@ try:
    else:
       st.write('The user entered ', fruit_choice)
       back_from_function = get_fruityvice_data(fruit_choice)
-      st.dataframe(fruityvice_normalized)
-except URLErrpr as e:
+      st.dataframe(back_from_function)
+except URLError as e:
    st.error()
 
 
