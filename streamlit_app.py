@@ -45,7 +45,10 @@ my_cur = my_cnx.cursor()
 #my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
 my_cur.execute("SELECT * FROM fruit_load_list")
 my_data_row = my_cur.fetchone()
-st.text("The fuit load list contains:")
-st.text(my_data_row)
+
+st.header("The fuit load list contains:")
+st.dataframe(my_data_row)
+
+
 
 
